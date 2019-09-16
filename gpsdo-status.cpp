@@ -30,7 +30,7 @@
 #include <wchar.h>
 #include <stdlib.h>
 #include "GPSSettings.h"
-#include "hidapi.h"
+#include <hidapi/hidapi.h>
 
 // Headers needed for sleeping.
 #ifdef _WIN32
